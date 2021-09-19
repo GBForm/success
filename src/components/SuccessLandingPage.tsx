@@ -5,7 +5,6 @@ import "./SuccessLandingPage.css";
 // import { useHistory } from "react-router";
 
 export const SuccessLandingPage = () => {
-	// 
   const name = localStorage.getItem("name");
 
   //   const history= useHistory();
