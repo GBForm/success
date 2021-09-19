@@ -1,0 +1,13 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 3rem;
+      }
+      .logo-success{
+	width: 20rem;
+      }
+      
+      .btn-success{
+	margin: 1rem;
+      }
