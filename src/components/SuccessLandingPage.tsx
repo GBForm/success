@@ -1,16 +1,17 @@
-import React from "react";
-// import { FakeApiData } from "../FakeAPI/FakeApi";
+import React, { useState,useEffect } from "react";
 import "./SuccessLandingPage.css";
 // import logo from "./blt-logo-web.svg";
-// import { useHistory } from "react-router";
+
+
 
 export const SuccessLandingPage = () => {
-  const name = localStorage.getItem("name");
+  const [name, setName] = useState<string>("")
+  
+  useEffect(() => {
+    
+    setName(localStorage.getItem("name"))
 
-  //   const history= useHistory();
-  //   const handleClick = () => {
-  //     history.push("/")
-  //   }
+  }, [])
 
   return (
     <>
